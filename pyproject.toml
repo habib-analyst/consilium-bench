@@ -1,0 +1,14 @@
+[project]
+name = "consilium-bench"
+version = "0.1.0"
+description = "Open, runnable clinical second-opinion benchmark harness (AI Consilium format)"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Habib Ur Rehman" }]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

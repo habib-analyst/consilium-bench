@@ -1,0 +1,6 @@
+# Runtime: gradio is needed only for app.py (Space-ready demo, not deployed).
+# The harness, tests, and bench run need nothing beyond the stdlib.
+gradio>=4.0
+pyarrow>=14.0   # scripts/export_medqa.py only (public MedQA parquet fetch)
+pillow>=10.0   # demo/make_demo_video.py only
+pytest>=8.0     # tests only
